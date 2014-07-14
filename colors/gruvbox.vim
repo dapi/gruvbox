@@ -306,11 +306,11 @@ if version >= 700
 	call s:HL('CursorColumn', 'none', 'dark1')
 
 	" Tab pages line filler
-	call s:HL('TabLineFill', 'dark4', 'bg')
+	call s:HL('TabLineFill', 'bg', 'dark4')
 	" Active tab page label
-	call s:HL('TabLineSel', 'bg', 'dark4', 'bold')
+	call s:HL('TabLineSel', 'dark4', 'bg', 'bold')
 	" Not active tab page label
-	call s:HL('TabLine', 'dark4', 'bg')
+	call s:HL('TabLine', 'bg', 'dark4')
 
 	" Match paired bracket under the cursor
 	call s:HL('MatchParen', 'none', 'dark3', 'bold')
